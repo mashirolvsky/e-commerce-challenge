@@ -2,14 +2,6 @@
 
 
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    outline: 0;
-    list-style-type: none;
-}
 
 .pink-tape{
     font-family: 'Dokdo', cursive, sans-serif;
@@ -19,7 +11,7 @@
     display: flex;
     width: 90%;
     justify-content: center;
-    margin: 0 auto;
+    margin: 2rem auto;
     background-image: url("../assets/images-omocat/omocat-headspace-hover.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -39,11 +31,3 @@
 }
 
 
-.omori-bg-2{
-    margin: 0 auto;
-    background-image: url("../assets/images-omocat/background-omori-2.webp");
-    backdrop-filter: grayscale(90%);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-}

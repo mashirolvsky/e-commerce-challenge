@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
-    integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous" />
+        integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous" />
     <link rel="stylesheet" href="style-2.css">
     <link rel="stylesheet" href="style.css">
-    
+
 
     <title>Homepage</title>
 </head>
@@ -26,33 +26,62 @@
     <nav class="menu-nav">
         <ul>
             <a href="#">
-                <li>Vestuário</li>
+                <li>Vestuário
+                </li>
             </a>
+            <li class="insert-menu"></li>
             <a href="#">
                 <li>OMOCAT x DRCTZ</li>
             </a>
+            <li class="insert-menu"></li>
             <a href="#">
                 <li>Informações</li>
             </a>
+            <li class="insert-menu"></li>
             <a href="#">
                 <li>Contato</li>
             </a>
+            <li class="insert-menu"></li>
             <a href="#">
                 <li>+</li>
             </a>
         </ul>
     </nav>
     <section id="carousel">
-        <div>
-
+        <div class="carrossel">
+            <input type="radio" name="radio" id="slide-1" checked>
+            <input type="radio" name="radio" id="slide-2">
+            <input type="radio" name="radio" id="slide-3">
+            <input type="radio" name="radio" id="slide-4">
+            <input type="radio" name="radio" id="slide-5">
+            <div class="slide img-1">
+                <img src="../assets/carrossel/OMOCAT-Carrossel.webp" alt="">
+            </div>
+            <div class="slide">
+                <img src="../assets/carrossel/OMOCAT-Carrossel-2.webp" alt="">
+            </div>
+            <div class="slide">
+                <img src="../assets/carrossel/OMOCAT-Carrossel-3.webp" alt="">
+            </div>
+            <div class="slide">
+                <img src="../assets/carrossel/OMOCAT-Carrossel-4.webp" alt="">
+            </div>
+            <div class="slide">
+                <img src="../assets/carrossel/OMOCAT-Carrossel-5.webp" alt="">
+            </div>
+        </div>
+        <div class="barraCarrossel">
+            <label for="slide-1"></label>
+            <label for="slide-2"></label>
+            <label for="slide-3"></label>
+            <label for="slide-4"></label>
+            <label for="slide-5"></label>
         </div>
 
     </section>
-    
-    <p class="shonen omoriSun">Omori Sun: Repackage!</p>
 
-    
-    <section class="mural-1 omori-bg">
+    <p class="shonen omoriSun">Omori Sun: Repackage!</p>
+    <section class="mural-1">
         <div id="painelUm">
             <div class="card">
                 <div class="topo-item">
@@ -61,7 +90,7 @@
                     <span>New</span>
                 </div>
                 <div class="card-img">
-                    <img src="../assets/images-omocat/omocat-bunny-hoodie.jpg" alt="Bunny Moletom">
+                    <img src="../assets/images-omocat/omocat-bunny-hoodie.jpg" width="800" height="950" alt="Bunny Moletom">
                     <i class="fa-regular fa-heart"></i>
                 </div>
                 <div class="item-detalhes">
@@ -72,16 +101,16 @@
                     <div class="cores">
                         <!--  -->
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-1">
                             <span class="checkmark-1"><i class="check-in">✔</i></span>
-                            
+
                         </label>
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-1">
                             <span class="checkmark-2"></span>
                         </label>
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-1">
                             <span class="checkmark-3"></span>
                         </label>
                         <!--  -->
@@ -98,7 +127,7 @@
                     <span class="last-chance">Last Chance</span>
                 </div>
                 <div class="card-img">
-                    <img src="../assets/images-drctz/tee-shirt.webp" alt="Bunny Moletom">
+                    <img src="../assets/images-drctz/tee-shirt.webp" alt="T-shirt" width="600" height="750">
                     <i class="fa-regular fa-heart"></i>
                 </div>
                 <div class="item-detalhes">
@@ -109,16 +138,16 @@
                     <div class="cores">
                         <!--  -->
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-2">
                             <span class="checkmark-1"><i class="check-in">✔</i></span>
-                            
+
                         </label>
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-2">
                             <span class="checkmark-2"></span>
                         </label>
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-2">
                             <span class="checkmark-3"></span>
                         </label>
                         <!--  -->
@@ -135,7 +164,7 @@
                     <span>New</span>
                 </div>
                 <div class="card-img">
-                    <img src="../assets/images-drctz/bomber-jack.webp" alt="Bunny Moletom">
+                    <img src="../assets/images-drctz/bomber-jack.webp" alt=" Souls Bomber" width="500" height="650">
                     <i class="fa-regular fa-heart"></i>
                 </div>
                 <div class="item-detalhes">
@@ -146,16 +175,16 @@
                     <div class="cores">
                         <!--  -->
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-3">
                             <span class="checkmark-1"><i class="check-in">✔</i></span>
-                            
+
                         </label>
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-3">
                             <span class="checkmark-2"></span>
                         </label>
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-3">
                             <span class="checkmark-3"></span>
                         </label>
                         <!--  -->
@@ -172,7 +201,7 @@
 
                 </div>
                 <div class="card-img">
-                    <img src="../assets/images-omocat/omocat-peca-02.jpg" alt="Bunny Moletom">
+                    <img src="../assets/images-omocat/omocat-peca-02.jpg" alt="Bunny Moletom" width="800" height="950">
                     <i class="fa-regular fa-heart"></i>
                 </div>
                 <div class="item-detalhes">
@@ -183,16 +212,16 @@
                     <div class="cores">
                         <!--  -->
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-4">
                             <span class="checkmark-1"><i class="check-in">✔</i></span>
-                            
+
                         </label>
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-4">
                             <span class="checkmark-2"></span>
                         </label>
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-4">
                             <span class="checkmark-3"></span>
                         </label>
                         <!--  -->
@@ -206,7 +235,7 @@
     </section>
 
     <p class="pink-tape">Pink tape: Attack!</p>
-    <section class="mural-2 omori-bg-2">
+    <section class="mural-2">
         <div id="painelDois">
             <div class="card">
                 <div class="topo-item">
@@ -226,16 +255,16 @@
                     <div class="cores">
                         <!--  -->
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-5">
                             <span class="checkmark-1"><i class="check-in">✔</i></span>
-                            
+
                         </label>
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-5">
                             <span class="checkmark-2"></span>
                         </label>
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-5">
                             <span class="checkmark-3"></span>
                         </label>
                         <!--  -->
@@ -262,16 +291,16 @@
                     <div class="cores">
                         <!--  -->
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-6">
                             <span class="checkmark-1"><i class="check-in">✔</i></span>
-                            
+
                         </label>
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-6">
                             <span class="checkmark-2"></span>
                         </label>
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-6">
                             <span class="checkmark-3"></span>
                         </label>
                         <!--  -->
@@ -299,16 +328,16 @@
                     <div class="cores">
                         <!--  -->
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-7">
                             <span class="checkmark-1"><i class="check-in">✔</i></span>
-                            
+
                         </label>
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-7">
                             <span class="checkmark-2"></span>
                         </label>
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-7">
                             <span class="checkmark-3"></span>
                         </label>
                         <!--  -->
@@ -336,16 +365,16 @@
                     <div class="cores">
                         <!--  -->
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-8">
                             <span class="checkmark-1"><i class="check-in">✔</i></span>
-                            
+
                         </label>
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-8">
                             <span class="checkmark-2"></span>
                         </label>
                         <label class="container">
-                            <input type="checkbox">
+                            <input type="radio" name="radio-8">
                             <span class="checkmark-3"></span>
                         </label>
                         <!--  -->
