@@ -31,3 +31,106 @@
 }
 
 
+#carousel {
+    width: 100%;
+    height: 40rem;
+    /* border-radius: .8rem; */
+    overflow: hidden;
+    position: absolute;
+}
+
+.barraCarrossel{
+    position: absolute;
+    bottom: .02rem;
+    display: flex;
+    right: 30.5%;
+    
+}
+
+.barra-nav{
+    width: 6rem;
+    height: .4rem;
+    border: .05rem solid #0000006a;
+    cursor: pointer;
+    /* border-radius: .6rem; */
+    margin: .4rem;
+    transition: .15s ease-in-out;
+}
+
+.barra-nav:hover{
+    background-color: #ffffff;
+}
+
+input{
+    display: none;
+}
+
+.carrossel{
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide{
+    width: 20%;
+    transition: .3s ease-out;
+}
+
+.slide img{
+    display: flex;
+    width: 100%;
+    align-self: center;
+}
+#slide-1:checked ~ .img-1{
+    margin-left: 0;
+
+}
+
+#slide-2:checked ~ .img-1{
+    margin-left: -20%;
+
+}
+
+#slide-3:checked ~ .img-1{
+    margin-left: -40%;
+}
+
+#slide-4:checked ~ .img-1{
+    margin-left: -60%;
+}
+
+#slide-5:checked ~ .img-1{
+    margin-left: -80%;
+}
+
+.carrossel-legenda{
+    position: absolute;
+    bottom: 10rem;
+    text-align: center;
+}
+
+.slide-legenda {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.slide-legenda .carrossel-legenda{
+    background-color: aliceblue;
+    padding: 2rem;
+    
+}
+a{
+    color: inherit;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 500px){
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
