@@ -131,23 +131,15 @@ header .logo {
     width: 14.5rem;
     height: fit-content;
     padding: 1.02rem;
-    background-color: #fff;
-    border: 2px solid #9c9fa2;
+    background-color: #f3fff7;;
     border-radius: 1.09rem;
     transition: .2s;
-    backdrop-filter: blur(17px) saturate(188%);
-    -webkit-backdrop-filter: blur(8px) saturate(198%);
-    background-color: #e8f1eb;
     margin: auto -3.5rem;
-    border: 2px solid rgba(255, 255, 255, 0.156);
 
 }
 
 .card:hover {
-    border-color: rgb(0, 0, 0);
-    transform: scale(1.001);
-    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.417);
-    border: 0.04rem solid rgba(255, 255, 255, 0.075);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.417);
 }
 
 /* Títulos do card */
@@ -398,4 +390,22 @@ footer {
 footer span {
     color: #404d61;
     font-size: 0.6 rem;
+}
+.insert-preFooter{
+    width: 30%;
+    margin: 20px auto;
+    color: #f3fff7;
+    border-left: none ;
+    border-right: none ;
+    border-bottom: none;
+    border-top: 1px #a09e9ed2 solid  ;
+}
+.insert-footer{
+    width: 60%;
+    margin: 20px auto;
+    color: #f3fff7;
+    border-left: none ;
+    border-right: none ;
+    border-bottom: none;
+    border-top: 1px #a09e9ed2 solid  ;
 }
